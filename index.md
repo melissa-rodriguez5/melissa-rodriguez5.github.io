@@ -1,3 +1,7 @@
+# Computer Science Capstone
+
+## Code Review
+This video is an informal code review covering the artifact I have chosen to make enhancements on for all three categories.
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/melissa-rodriguez5/melissa-rodriguez5.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
