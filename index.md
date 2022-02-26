@@ -4,6 +4,9 @@
 The following is a link to a video with an informal code review covering the artifact I have chosen to make enhancements on for all three categories: [Artifact Code Review](https://youtu.be/KvFRfy7cGxg)
 
 ## Enhancement One Narrative
+Here are the links to the original artifact: [AuthenticationSystem](https://github.com/melissa-rodriguez5/melissa-rodriguez5.github.io/tree/main/ZooAuthenticationSystem)<br/>
+And the enhanced version: [ZooAuthenticationSystem](https://github.com/melissa-rodriguez5/melissa-rodriguez5.github.io/blob/main/AuthenticationSystem.zip)
+
 ### Briefly describe the artifact. What is it? When was it created?
 The artifact is a simple authentication system that validates a zoo employee's login credentials and authorizes them to view data that pertains to their role in the organization. It was originally written in Java for the IT-145 Foundation in App Development class I took in late 2019.
 
