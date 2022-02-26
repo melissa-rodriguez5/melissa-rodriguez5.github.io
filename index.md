@@ -2,6 +2,16 @@
 
 ## Code Review
 The following is a link to a video with an informal code review covering the artifact I have chosen to make enhancements on for all three categories: [Artifact Code Review](https://youtu.be/KvFRfy7cGxg)
+
+## Enhancement One Narrative
+### Briefly describe the artifact. What is it? When was it created?
+The artifact is a simple authentication system that validates a zoo employee's login credentials and authorizes them to view data that pertains to their role in the organization. It was originally written in Java for the IT-145 Foundation in App Development class I took in late 2019.
+
+### Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development?
+I selected this artifact because as one of the earliest programs I created, I saw much room for improvement. When considering the three categories I needed to cover for my capstone (software engineering, data structures/algorithms, and databases), I immediately saw the potential this one artifact had for me showing the skills I have developed in each of these categories. As a bare bones program, I saw that I could take what I had and could improve upon it by converting it to another language, adding CRUD functionality, and adding a database to make data management more efficient.
+
+### Reflect on the process of enhancing and/or modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face? How did you incorporate feedback as you made changes to the artifact? How was the artifact improved? 
+When aiming to convert the program from Java to JavaScript, I knew I was potentially tackling a tough project since my experience with JavaScript is minimal. The first obstacle I came across was trying to write a program that only functions through a CLI in JavaScript. JavaScript’s strength lies in its compatibility with web browsers, so trying to write JavaScript that did not need to run on a browser was tough since it required the use of Node.js. This was difficult since vanilla JavaScript would not always work for certain functionalities and I had to research what code would work when running through Node.js. Another big challenge in this part of the enhancement process was converting my program’s hash file from Java to JavaScript. Since I did not write the hash file in the original artifact (it was provided in the course already completed), I knew I was going to have to do some extra research to be able to get the hash file up and running in JavaScript. With a bit of research and guidance, I was able to find and implement a JavaScript library (CryptoJS) that served the same purpose as the hash file. I incorporated feedback to my enhancement by paying special attention to the comments in my code. Because of the excess of unnecessary comments in the original artifact, I made sure that the enhanced version had a balance of including well-commented code that avoided unnecessary explanations. Although I did end up having to do much more additional research than initially expected, I learned a lot about JavaScript, Node.js, and imported libraries and I think I established good foundations for this project that allowed me to build on this code for the other enhancements.
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/melissa-rodriguez5/melissa-rodriguez5.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
@@ -31,10 +41,6 @@ Syntax highlighted code block
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/melissa-rodriguez5/melissa-rodriguez5.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
