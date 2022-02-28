@@ -1,5 +1,18 @@
 # Computer Science Capstone
 
+## Professional Self-Assessment
+
+### My Journey
+Completing coursework throughout the program and the capstone helping me hone one of the biggest strengths I have, my problem-solving skills. I came into the program with no background in computer science and my technology skills were at a bare minimum, so everything programming-related I learned during these three-and-a-half years was introduced as a foreign concept to me. By applying my problem-solving abilities, I used my greatest asset to develop new skills and strengths.<br/>
+I used my problem-solving skills to practice collaborating in a team environment in a course in which the overarching assignment was an app that everyone in the class was working on. For this to be possible, we all had to learn to use Git and Bitbucket so that we could add our contributions to the project without compromising anyone else’s. My problem-solving skills came in handy when it came time to merge my branch to master because several times I was faced with merge conflicts and I had to carefully look through my branch and master to make sure that I resolved the conflicts and added my changes without deleting a classmate’s work. This is useful in the computer science field because most (if not all) careers will require working in a team on one project and being able to use version control to make teamwork manageable is a necessary skill.<br/>
+My problem-solving abilities were useful when building the skill to communicate to stakeholders during a secure coding course in which I wrote a security report explaining to an organizations why my cyber security recommendations were optimal for their business. With the help of the provided course materials, I learned about the best security practices and used that knowledge to develop my ideas of which practices were most suitable for a software development company. To support these ideas, I did a lot of research to find resources that added credibility to the recommendations I made in the final security report. This is useful for a career in the computer science field because understanding the client is crucial to being able to deliver what they asked for. A development team can deliver a well-done program, but it will not mean much if that program does not do what the client needs it to do.<br/>
+That same project was also helpful for developing my skills in security. To understand how to best make software development secure, I had to do research on many varieties of security threats, ranging from online cyber threats to external physical threats. This is useful for a career in the computer science field because security is one of the most important aspects of programming. A program can be have excellent functionality, but that functionality will be no good if it is vulnerable to data breaches.
+Knowing how to problem-solve any task is what helped get me through working with data structures and algorithms. For one course, I had to build a full-stack app with CRUD capabilities using Python, MongoDB, and Dash. When it came to CRUD, I had to know how to apply various data structures and algorithms to achieve the required functionality. Relying on the experience from previous courses and knowing what types of resources to search for, I was able to both create complete CRUD functionality that worked with data from a database. This is helpful in the computer science field because we have to be prepared for the unknown. The world of computer science covers a large amount of topics and it is very likely that at some point in our career we will be expected to work with technologies we have little to knowledge about.<br/>
+The full-stack Python app also helped build my skills with software engineering and databases. This app was only the second time I worked with a database, and the first time I had to have it work in conjunction with a working program. Being able to find great resources was an additional skill I was glad I developed because it made the process of figuring out how to connect a frontend and backend less stressful. Practice with databases in full-stack apps is important to a career in computer science because data manipulation is a going to be found in many aspects of the field. One of the main functions of programming is to take some sort of information and manipulate so that it achieves a particular goal.
+
+### The Artifact
+For the capstone, I decided to work on only one artifact. This one artifact (a basic authentication system), felt like the best candidate to represent my growth in the computer science program because it was one of the first programming projects I ever completed. Because of this, it is very rough and does not have a lot of the skill I worked to build in the courses I took after the one in which I worked on this project. The artifact I have chosen shows where I started and the enhancements I have worked on during the capstone perfectly captured how much I have grown, particularly when it comes to my skills in software engineering, data structures/algorithms, and databases.
+
 ## Code Review
 The following is a link to a video with an informal code review covering the artifact I have chosen to make enhancements on for all three categories: [Artifact Code Review](https://youtu.be/KvFRfy7cGxg)
 
@@ -44,32 +57,3 @@ I selected this artifact because as one of the earliest programs I created, I sa
 ### Reflect on the process of enhancing and/or modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face? How did you incorporate feedback as you made changes to the artifact? How was the artifact improved?
 In the previous two enhancements, I built the foundation of the program by converting the original artifact to JavaScript and added CRUD functionality for more complexity. For this enhancement, my goal was to take the foundation and make it a more complete program by adding a MongoDB database with data that could be managed through a user interface made with React. To do this, I started by creating an account in MongoDB and added the collection “roles” which consists of the duties data that had been found in text files and arrays in previous iterations of the program. I also added a collection titled “users” which contains the credentials data. With the data now in MongoDB, I created an entirely new set of files (separate from the ZooAuthenticationSystem I already have) that serve as the backend and the frontend of the program. The backend files connect the MongoDB database to the React frontend, with index.js in the mongodb-backend folder containing all the functionality. The React frontend files (with App.js containg the main functionality) create the user interface that is used to input credentials and have the information displayed to the user.<br/>
 	Working on these enhancements gave me much needed practice with backend and server code. While I am fairly confident in my ability to write program functionality, I feel like one of my areas of improvement when it comes to software development is working with servers, having only practiced with them once before. Taking on this challenge showed me that creating a full-stack app takes much more than writing effective functionality. It also requires a good understanding of how every part of the program will connect to one another, from figuring out how to connect to the database to the backend and then connecting that backend to the frontend. Due to time constraints and limitations in my abilities, I was able to create a full-stack app, but with very limited capabilities. The app does use a MongoDB database to manage the program’s data, but the React frontend only has login functionality that displays role duty information depending on if the login information pertains to a user in the database. I ran out of time and did not incorporate any of the CRUD functionality that I had created in Enhancement Two and the app’s design also leaves a lot to be desired. Nevertheless, I was able to produce a full-stack MVP with new technologies and while the product is not the most polished, the experience I got from working on this project was invaluable and I definitely intend to continue building on it in future.
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/melissa-rodriguez5/melissa-rodriguez5.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
